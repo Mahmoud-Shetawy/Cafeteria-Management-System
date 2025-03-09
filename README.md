@@ -56,11 +56,9 @@ The **Cafeteria Management System** is a PHP-based web application designed to s
 ## **Technology Stack**
 
 -   **Backend:** PHP (Laravel or Core PHP)
--   **Frontend:** HTML, CSS, JavaScript (Vue.js or jQuery)
+-   **Frontend:** HTML, CSS, JavaScript
 -   **Database:** MySQL
 -   **Authentication:** PHP sessions, bcrypt hashed passwords
--   **Email Handling:** PHPMailer for password reset functionality
--   **Admin Panel:** Bootstrap or AdminLTE
 
 ## **Project Structure**
 
