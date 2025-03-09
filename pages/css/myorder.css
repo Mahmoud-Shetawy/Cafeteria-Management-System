@@ -1,0 +1,233 @@
+/* ***********navbar************************* */
+.navbar {
+    background-color: rgb(153, 128, 101) !important; /* تغيير الخلفية */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 0;
+    height: 70px;
+}
+
+.navbar .nav-item {
+    margin-right: 10px;
+}
+
+.navbar .dropdown {
+    position: relative;
+}
+
+.navbar .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background: white;
+    box-shadow: 0 4px 6px rgba(157, 155, 155, 0.1);
+}
+
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+}
+.nav-icon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-icon li {
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon a,
+.nav-icon button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333; 
+}
+
+.nav-icon i {
+    font-size: 18px; 
+}
+/* **************************table************************* */
+
+/* *************************Filter************************ */
+
+
+
+#title-page{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#filterForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background: #e0e1e1;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    margin: 20px auto;
+}
+
+#filterForm label {
+    font-weight: bold;
+    color: #333;
+}
+
+#filterForm input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+#filterForm input:focus {
+    border-color:  #dac1a4;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.2);
+}
+
+#filterForm button {
+    background:  #dac1a4;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+#filterForm button:hover {
+    background: #9c6c35;
+}
+/* *************************table************************ */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #8b6f4f;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+button {
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #dac1a4;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color:  #dac1a4;
+}
+
+.cancel-btn {
+    background-color: #d9534f;
+    color: white;
+}
+
+.cancel-btn:hover {
+    background-color: #c9302c;
+}
+
+.amount-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.amount-control button {
+    background-color:#dac1a4;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.amount-control button:hover {
+    background-color: #6f563a;
+}
+#orderDetails {
+    padding: 20px;
+    border-radius: 10px;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin: 15px auto;
+    text-align: center;
+    font-weight: bold;
+}
+/* *************footer************** */
+.footer-section{
+    background-color: rgb(16, 55, 65);
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: rgb(135, 155, 160);
+}
+.footer-section h4 {
+    color: var(--main-color);
+    font-family: var(--lob);
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.footer-section ul {
+    list-style-type: none;
+    line-height: 2;
+}
+.footer-section img {
+    border-radius: 10px;
+    border: 5px solid var(--main-color);
+    margin-bottom: 15px;
+}
+.footer-section .fa-brands {
+    color: var(--main-color);
+    font-size: 25px;
+    padding: 5px;
+}
+.footer-section span {
+    color: var(--main-color);
+}
